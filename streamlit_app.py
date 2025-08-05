@@ -4,7 +4,7 @@ import openai  # Optional
 import os
 
 # --- Konfiguration ---
-GHOSTFOLIO_URL = st.secrets.get("GHOSTFOLIO_URL", "https://your-instance/api/v1")
+GHOSTFOLIO_URL = st.secrets.get("GHOSTFOLIO_URL")
 GHOSTFOLIO_API_KEY = st.secrets.get("ghostfolio_token")
 OPENAI_API_KEY = st.secrets.get("chatgpt_apikey", "")  # leer lassen wenn nicht genutzt
 
